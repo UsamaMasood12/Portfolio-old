@@ -151,5 +151,5 @@ function validateEmail(event) {
   EMAIL_INPUT.classList.add('invalid');
   INVALID_MESSAGE.classList.add('invalid');
 }
-EMAIL_INPU.addEventListener('change', validateEmail);
+EMAIL_INPUT.addEventListener('change', validateEmail);
 CONTACT_FORM.addEventListener('submit', validateEmail);
